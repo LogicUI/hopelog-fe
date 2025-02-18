@@ -21,7 +21,7 @@ const AnalysisLanding = () => {
         </p>
 
         <div className="grid md:grid-cols-2 gap-8 md:gap-12">
-          <div className="space-y-8">
+          <div className="flex flex-col justify-between h-full space-y-8">
             <div className="bg-white rounded-lg p-8 text-slate-900 shadow-lg hover:shadow-xl transition-shadow">
               <div className="flex flex-col md:flex-row items-center gap-4">
                 <Image
@@ -88,12 +88,12 @@ const AnalysisLanding = () => {
           </div>
 
           <div className="bg-white rounded-lg p-8 text-slate-900 shadow-lg hover:shadow-xl transition-shadow h-full">
-            <div className="flex justify-between items-center mb-8">
+            <div className="flex flex-col md:flex-row lg:flex-row justify-between items-center mb-8">
               <h3 className="text-xl font-semibold">Mood Trends</h3>
               <span className="text-gray-600">Last 7 Days</span>
             </div>
 
-            <div className="h-[400px] mb-8">
+            <div className="mb-8">
               <Image
                 src={MoodTrendsChartSVG}
                 alt="Mood Trends Chart"
@@ -103,7 +103,7 @@ const AnalysisLanding = () => {
               />
             </div>
 
-            <div className="grid grid-cols-3 gap-8 text-center">
+            <div className="grid lg:grid-cols-3 gap-8 text-center">
               <div>
                 <div className="text-3xl font-bold">85%</div>
                 <div className="text-gray-600">Positive Days</div>

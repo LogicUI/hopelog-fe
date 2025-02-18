@@ -9,21 +9,21 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        poppins: ['Poppins', 'sans-serif'],
+        poppins: ["Poppins", "sans-serif"],
       },
       fontWeight: {
-        medium: '500',
-        semibold: '600',
+        medium: "500",
+        semibold: "600",
       },
       colors: {
-        white: '#FFFFFF',
-        dark: '#2E2E40',
-        muted: '#59596E',
-        ascent: '#4F92FF',
-        buttons: '#7A7A92',
-        message: '#59596E',
-        mutedHover: '#6E6E84',
-        edit: '#FFB347'
+        white: "#FFFFFF",
+        dark: "#2E2E40",
+        muted: "#59596E",
+        ascent: "#4F92FF",
+        buttons: "#7A7A92",
+        message: "#59596E",
+        mutedHover: "#6E6E84",
+        edit: "#FFB347",
       },
     },
   },
