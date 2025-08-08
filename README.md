@@ -1,3 +1,9 @@
+### 8 August 2025 (Depreciated for new journal)
+- Removed the host due to cost and no users to make way for Blank Journal 
+- It was a good experience learning from this project
+- You can view the features and how it works below 
+- https://www.loom.com/share/672550f68ea44b4ba8fdd5730b8706f1?sid=737c6c59-5493-4aa1-b17f-348f5dcdd423
+
 Feelings AI Bot
 # Feelings AI Bot
 
